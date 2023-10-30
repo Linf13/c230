@@ -1,0 +1,44 @@
+* {
+    margin: 2;
+    padding: 2;
+}
+
+
+body {
+    background-color: #1d4279;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+div {
+    font-size: 24px;
+    color: #4db878;
+    margin-bottom: 20px;
+    border:solid 1px blue;
+}
+
+
+div:nth-child(2) {
+    font-size: 22px;
+    color: #439027;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+
+
+div.news {
+    background-color: black;
+
+}
+
+a {
+    color: aliceblue;
+}
+
+a:hover {
+    color: #020e15;
+}
+
+
+
