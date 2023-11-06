@@ -28,16 +28,39 @@
     #main{
         display: flex;
         justify-content: center;
+        position: relative;
+        border: solid 1px grey;
     }
+
+    #fixed {
+        position:fixed;
+        right: 10px;
+        bottom: 10px;
+        background-color: aquamarine;
+        width: 300px;
+
+     }
+
+
+     #absolute {
+        position:absolute;
+        right: 10px;
+        bottom: 10px;
+        background-color: beige;
+        width: 150 px;
+
+     }
 </style>
 </head>
 <body>
     <div id="main">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque assumenda ipsa alias, beatae repellendus aspernatur. Error sint quam, quos veniam, alias quidem tempora est doloribus placeat perferendis laudantium at molestias.</p>
+        <div id="absolute">Hello this is Linf</div> 
+        <p>ipsum dolor, sit amet consectetur adipisicing elit. Eaque assumenda ipsa alias, beatae repellendus aspernatur. Error sint quam, quos veniam, alias quidem tempora est doloribus placeat perferendis laudantium at molestias.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum corrupti nisi ipsa ratione? Odio tempora labore quam molestias ex velit! Nobis fugiat officiis quod assumenda adipisci inventore ducimus quae corrupti!</p>
         
     </div>
     <a href="page7.html">Next</a>
+    <div id="fixed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ipsa est delectus suscipit aperiam esse recusandae voluptatum quidem accusantium hic tenetur expedita repellendus rem a, ipsam, maiores reiciendis assumenda nisi?</div>
 </body></html>
 
 </html>
